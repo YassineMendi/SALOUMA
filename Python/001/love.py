@@ -76,7 +76,7 @@ def show_like_interface2(text, screen, color=(255, 0, 0)):
 def main():
 	pygame.init()
 	screen = pygame.display.set_mode((WIDTH, HEIGHT), 0, 32)
-	pygame.display.set_caption('来自一个喜欢你很久的小哥哥')
+	pygame.display.set_caption('From a little brother who has liked you for a long time')
 	clock = pygame.time.Clock()
     
 	unlike_x_pos,unlike_y_pos = 370,380
@@ -108,16 +108,16 @@ def main():
 					mouse_pos[1] < unlike_y_pos+unlike_pos_height+5 and mouse_pos[1] > unlike_y_pos-5:
 					continue
 				break
-		title('小姐姐，我观察你很久了', screen, scale=[2, 10])
-		title('做我女朋友好不好呀? *^_^*', screen, scale=[2, 6])
-		button('好呀', like_x_pos, like_y_pos, like_pos_width, like_pos_height, button_color, screen, 20)
-		button('算了吧', unlike_x_pos, unlike_y_pos, unlike_pos_width/2, unlike_pos_height/2, button_color, screen, 10)
+		title('Sister, I have been observing you for a long time.', screen, scale=[2, 10])
+		title('Would you like to be my girlfriend? *^_^*', screen, scale=[2, 6])
+		button('OK', like_x_pos, like_y_pos, like_pos_width, like_pos_height, button_color, screen, 20)
+		button('Forget it', unlike_x_pos, unlike_y_pos, unlike_pos_width/2, unlike_pos_height/2, button_color, screen, 10)
 		pygame.display.flip()
 		pygame.display.update()
 		clock.tick(60)
 
 	if not os.path.exists("3.png"):
-		show_like_interface2('我就知道小姐姐你也喜欢我 *^_^*', screen, color=(0, 0, 0))
+		show_like_interface2('I know you like me too, little sister *^_^*', screen, color=(0, 0, 0))
 	else:
 		show_like_interface1(screen=screen)
 
