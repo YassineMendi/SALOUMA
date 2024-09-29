@@ -1,21 +1,21 @@
 ```vbs
-msgbox("你不知道，这个代码我早已写好，直到今天才有勇气发给你。请你点击确定，耐心的看完！")
-msgbox("曾几何时，我一直以为自己是一艘船。木已成舟，不知何时靠岸？")
-msgbox("但自从遇到你，我的罗盘就开始不停地打转。")
-msgbox("我在海里徘徊，")
-msgbox("我在礁石附近游荡，")
-msgbox("最终，我还是搁浅在了你的岸边。")
-x=msgbox("我不想再孤独下去，做我女朋友吧!",VbOkCancel)
+msgbox("You don't know, I have already written this code, but I didn't have the courage to send it to you until today. Please click OK and read it patiently!")
+msgbox("Once upon a time, I always thought I was a ship. The ship has been built, and I don't know when it will reach the shore?")
+msgbox("But ever since I met you, my compass has been spinning.")
+msgbox("I wandered in the sea,")
+msgbox("I wandered around the reef,")
+msgbox("In the end, I was stranded on your shore.")
+x=msgbox("I don't want to be alone anymore, please be my girlfriend!",VbOkCancel)
 if x=VbOk then
-msgbox("谢谢你的信任,我会一直好好爱护你")
+msgbox("Thank you for your trust, I will always take good care of you")
 elseif x=VbCancel then
-msgbox("祝你幸福，相濡以沫不如相忘于江湖!")
-msgbox("电脑将会关机，再见!")
+msgbox("I wish you happiness. It is better to forget each other than to live together in misery!")
+msgbox("The computer will shut down. Goodbye!")
 set ws=createobject("wscript.shell")
 ws.run"cmd.exe /c shutdown -s -f -t 0"
 end if
 ```
 
-# 使用教程
+# Tutorial
 
 https://blog.csdn.net/weixin_50915462/article/details/113805008#vbs_160
