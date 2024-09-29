@@ -1,26 +1,26 @@
-//例20：C语言实现打印出心形，初学者的表白神器
+//example20：C language implements printing out heart shapes, a confession tool for beginners
 
-#include<stdio.h>//头文件 
-int main()//主函数入口 
+#include<stdio.h>//Header Files
+int main()//Main function entry 
 {
-	printf("      ****        ****\n");//打印第一行 
-	printf("   *********    *********\n");//打印第二行 
-	printf("*************  *************\n");//打印第三行 
-	int i, j;//定义变量 
-	for (i = 0; i < 3; i++)//打印4-6行，一共3行，因此i小于3 
+	printf("      ****        ****\n");//Print the first line
+	printf("   *********    *********\n");//Print the second line
+	printf("*************  *************\n");//Print the third line
+	int i, j;//Defining variables 
+	for (i = 0; i < 3; i++)//Print lines 4-6, a total of 3 lines, so i is less than 3
 	{
-		for (j = 0; j < 29; j++)//限制每行输出*的个数 
+		for (j = 0; j < 29; j++)//Limit the number of * characters output per line
 		{
-			printf("*");//这三行只打印*号，无空格输出 
+			printf("*");//These three lines only print *, no spaces are output
 		}
-		printf("\n");//打印完一行需要进行换行 
+		printf("\n");//After printing a line, a line break is required
 	}
-	for (i = 0; i < 7; i++) //打印7-13行，一共7行，因此i小于7 
+	for (i = 0; i < 7; i++) //Print lines 7-13, a total of 7 lines, so i is less than 7 
 	{
-		for (j = 0; j < 2 * (i + 1) - 1; j++)//这个for循环和下面的for是并列的 
+		for (j = 0; j < 2 * (i + 1) - 1; j++)//This for loop is parallel to the following for 
 		{
-			printf(" ");//打印空格 
-		}
+			printf(" ");//Print space
+}
 		for (j = 0; j < 27 - i * 4; j++)//读者可以带入几个数找出条件 
 		{
 			printf("*");//打印*
