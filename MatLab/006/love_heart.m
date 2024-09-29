@@ -1,4 +1,4 @@
-%跳动爱心
+%Beating Heart
 clear; clc; close all; 
 % NOTICE: Your MATLAB version should be at least R2019a !
 
@@ -31,9 +31,9 @@ grid on; axis equal; axis([-3,3,-3,3,-1.5,1.5]); view(3)
 title(["$(x^2+\frac{9}{4}y^2+z^2-1)^3-x^2z^3-\frac{9}{80}y^2z^3=0$",...
     "$(\sqrt{x^2+y^2}-R)^2 +z^2 = r^2$"],'Interpreter','latex','position',[3.3,4])
 warning('off');
-% 请在此处进行您的演讲！% 请在此处进行您的演讲！
+% Please give your speech here! % Please give your speech here!
 T = suptitle("$I\ Love\ U\ !$"); 
-% 请在此处进行您的演讲！% 请在此处进行您的演讲！
+% Please give your speech here! % Please give your speech here!
 set(T,'Interpreter','latex','FontSize',24)
 
 % -------------------------- generate gif -----------------------------
