@@ -1,2 +1,2 @@
-## 考虑到仓库大小，此程序单独存放，请前往
+## Considering the size of the warehouse, this program is stored separately, please go to
 # https://github.com/sun0225SUN/C-Fireworks-Code
