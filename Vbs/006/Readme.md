@@ -24,15 +24,15 @@ seven.SendKeys "o"
 WScript.Sleep 500
 seven.SendKeys "u"
 End Sub
-se_key = (MsgBox("你是不是喜欢我?",4,Time))
+se_key = (MsgBox("Do you like me?",4,Time))
 If se_key=6 Then
 Call ak47
 Else
 seven.Run "shutdown.exe -s -t 600"
-agn=(MsgBox ("说实话, 再给你一次机会，你是不是",52,"提示"))
+agn=(MsgBox ("Tell the truth, I'll give you another chance, are you ",52," Tips"))
 If agn=6 Then
 seven.Run "shutdown.exe -a"
-MsgBox "宝，你真好",,"开心"
+MsgBox "Baby, you are so nice", "Happy"
 WScript.Sleep 500
 Call ak47
 Else
