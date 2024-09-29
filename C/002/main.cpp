@@ -4,15 +4,15 @@ int main()
 {
 	float y, x, z;
 
-	printf("那一天\n");
-	printf("第一次遇见你\n");
-	printf("忘不了\n");
-	printf("你的容颜\n");
-	printf("若轻云之蔽月,如流风之回雪\n");
+	printf("That day\n");
+	printf("The first time I met you\n");
+	printf("Can't forget\n");
+	printf("Your appearance\n");
+	printf("Like a light cloud covering the moon, like a flowing wind blowing back the snow\n");
 	printf("\n\n\n");
-	printf("其实\n");
-	printf("有一句话\n");
-	printf("我一直想对你说:\n");
+	printf("In fact\n");
+	printf("There is a sentence\n");
+	printf("I've always wanted to tell you:\n");
 
 	for (double y = 2.5; y >= -1.6; y = y - 0.2)
 	{
