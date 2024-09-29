@@ -1,22 +1,22 @@
 
 ```vbs
-msgbox ("我有一件事想跟你说"),vbQuestion,("在吗？")
-msgbox ("自从第一天遇见你，我便对你难以忘怀了！")
-msgbox ("做我女朋友好吗？")
-msgbox ("房产写你名字")
-msgbox ("保大")
-msgbox ("我妈会游泳")
+msgbox ("I have something to tell you."),vbQuestion,("Are you there?")
+msgbox ("Since the first day I met you，I will never forget you!")
+msgbox ("Will you be my girlfriend?")
+msgbox ("Property in your name")
+msgbox ("Saloumti")
+msgbox ("My mother can swim")
 dim j
 do while j<1
-Select Case msgbox("做我女朋友好吗？",68,"请郑重的回答我！")
+Select Case msgbox("Will you be my girlfriend?",68,"Please answer me seriously!")
 Case 6 j=1
-Case 7 msgbox("再给你一次机会")
+Case 7 msgbox("Give you one more chance")
 end Select
 loop
-msgbox("我就知道你会同意的，哈哈哈哈！！")
+msgbox("I knew you would agree, hahahaha!!")
 
 ```
 
-# 使用教程
+# Tutorial
 
 https://blog.csdn.net/weixin_50915462/article/details/113805008#vbs_160
