@@ -1,4 +1,4 @@
-% matlab动态心形曲线（保存GIF格式）
+% Matlab dynamic cardioid curve (save in GIF format)
 clc;clear all;
 a=10;
 x=-2:0.01:2;
@@ -22,9 +22,9 @@ for i=1:100
     im = frame2im(frame);
     [I,map] = rgb2ind(im,256);
     if i==1
-        imwrite(I,map,'心形图.gif','gif','Loopcount',Inf,'DelayTime',0.05);
+        imwrite(I,map,'Heart-Shaped Diagram.gif','gif','Loopcount',Inf,'DelayTime',0.05);
     else
-        imwrite(I,map,'心形图.gif','gif','WriteMode','append','DelayTime',0.05);
+        imwrite(I,map,'Heart-Shaped Diagram.gif','gif','WriteMode','append','DelayTime',0.05);
     end
     close(figure(i));
 end
