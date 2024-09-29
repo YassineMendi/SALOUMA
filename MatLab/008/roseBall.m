@@ -1,6 +1,6 @@
 function roseBall
 clear;clc
-%曲面数据计算
+%Surface data calculation
 %==========================================================================
 [x,t]=meshgrid((0:24)./24,(0:0.5:575)./575.*20.*pi+4*pi);
 p=(pi/2)*exp(-t./(8*pi));
@@ -11,7 +11,7 @@ y=2*(x.^2-x).^2.*sin(p);
 r=u.*(x.*sin(p)+y.*cos(p));
 h=u.*(x.*cos(p)-y.*sin(p));
 
-%颜色映射表
+%Color map
 %==========================================================================
 hMap=(h-min(min(h)))./(max(max(h))-min(min(h)));
 col=size(hMap,2);
@@ -99,7 +99,7 @@ colorMap(:,:,3)=dataMap(:,2*col+1:3*col);
     end
 
 
-%曲面旋转及绘制
+%Surface rotation and drawing
 %==========================================================================
 surface(r.*cos(t),r.*sin(t),h+0.35,'EdgeAlpha',0.05,...
     'EdgeColor',[0 0 0],'FaceColor','interp','CData',colorMap)
@@ -158,7 +158,7 @@ end
             end
         end
     end
-%axes属性调整
+%axesAttribute Adjustment
 %==========================================================================
 ax=gca;
 grid on
