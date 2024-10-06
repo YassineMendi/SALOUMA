@@ -11,19 +11,19 @@
     <!-- First row -->
     <tr>
     <td valign="top">
-        <a target="_blank" href="https://github.com/YassineMendi/SALOUMA/tree/main/001">
+        <a target="_blank" href="https://github.com/YassineMendi/SALOUMA.git">
             <p align="center">001</p>
             <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/Awesome-Love-Code/assets/img/web/001.jpg"/>
         </a>
     </td>
     <td valign="top">
-        <a target="_blank" href="https://github.com/YassineMendi/SALOUMA/tree/main/002">
+        <a target="_blank" href="https://github.com/YassineMendi/SALOUMA.git">
             <p align="center">002</p>
             <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/Awesome-Love-Code/assets/img/web/002.jpg"/>
         </a>
     </td>
     <td valign="top">
-        <a target="_blank" href="https://github.com/YassineMendi/SALOUMA/tree/main/003">
+        <a target="_blank" href="https://github.com/YassineMendi/SALOUMA.git">
             <p align="center">003</p>
             <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/Awesome-Love-Code/assets/img/web/003.jpg"/>
         </a>
